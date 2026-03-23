@@ -1,6 +1,7 @@
 from datetime import datetime
 from decimal import Decimal
 from uuid import uuid4
+from typing import Optional
 
 from sqlalchemy import Boolean, DateTime, ForeignKey, Numeric, String, UniqueConstraint, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -153,7 +154,9 @@ class Bet(Base):
     stake: Mapped[Decimal] = mapped_column(Numeric(12, 2), nullable=False)
     payout: Mapped[Decimal] = mapped_column(Numeric(12, 2), nullable=False)
     profit: Mapped[Decimal] = mapped_column(Numeric(12, 2), nullable=False)
-    odds_decimal: Mapped[Decimal | None] = mapped_column(Numeric(12, 4), nullable=True)
+    odds_decimal: Mapped[Optional[Decimal]] = mapped_column(
+        Numeric(12, 4), nullable=True
+    )
     result: Mapped[str] = mapped_column(String(10), nullable=False, server_default="pending")
     placed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
     created_at: Mapped[datetime] = mapped_column(
