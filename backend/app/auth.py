@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta, timezone
+from hashlib import sha256
 from typing import Any
 
 from fastapi import Depends, HTTPException, status
@@ -21,7 +22,13 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
 
 def hash_password(password: str) -> str:
-    return pwd_context.hash(password)
+    if password is None:
+        raise ValueError("Password is required")
+    raw = password.encode("utf-8")
+    if len(raw) > 72:
+        # bcrypt only uses first 72 bytes; pre-hash to keep long secrets usable
+        raw = sha256(raw).hexdigest().encode("utf-8")
+    return pwd_context.hash(raw.decode("utf-8"))
 
 
 def verify_password(password: str, password_hash: str) -> bool:
