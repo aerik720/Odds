@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArbFinder Performance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="backdrop">
+      <div class="blob blob--a"></div>
+      <div class="blob blob--b"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <main class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Performance</p>
+          <h1>Bet Tracker</h1>
+          <p class="lede">Track placed bets, ROI, and bankroll growth over time.</p>
+        </div>
+        <div class="hero-card">
+          <div class="hero-stat">
+            <span>Total stake</span>
+            <strong id="perf-total-stake">0</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Total profit</span>
+            <strong id="perf-total-profit">0</strong>
+          </div>
+          <div class="hero-stat">
+            <span>ROI</span>
+            <strong id="perf-roi">0%</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Signed in as</span>
+            <strong id="perf-user-badge">Unknown</strong>
+          </div>
+          <a class="link" href="./index.html">Back to dashboard</a>
+          <button class="link link--button" id="perf-logout" type="button">
+            Log out
+          </button>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Bankroll Chart</h2>
+          <div class="panel-actions">
+            <button class="button button--ghost" id="perf-theme-toggle">
+              Toggle theme
+            </button>
+            <button class="button" id="perf-clear">Clear all</button>
+          </div>
+        </div>
+        <div class="controls">
+          <label class="field">
+            <span>Starting bankroll</span>
+            <input id="perf-start-bankroll" type="number" step="1" value="1000" />
+          </label>
+        </div>
+        <div class="chart">
+          <div class="summary" id="perf-chart-summary">No bankroll data yet.</div>
+          <svg id="perf-bankroll-chart" viewBox="0 0 720 260" role="img"></svg>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <div class="card-header">
+            <h3>Bankroll</h3>
+          </div>
+          <div class="summary" id="perf-bankroll-summary">No bets yet.</div>
+          <div class="table" id="perf-bankroll-table"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Active Bets</h3>
+            <label class="field field--inline">
+              <span>Sort</span>
+              <select id="perf-active-sort">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+              </select>
+            </label>
+          </div>
+          <div class="summary" id="perf-active-summary">No active bets.</div>
+          <div class="table" id="perf-active-table"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Bet History</h3>
+          </div>
+          <div class="summary" id="perf-bets-summary">No bets logged.</div>
+          <div class="table" id="perf-bets-table"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./performance.js"></script>
+  </body>
+</html>

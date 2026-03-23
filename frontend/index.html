@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArbFinder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="backdrop">
+      <div class="blob blob--a"></div>
+      <div class="blob blob--b"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <main class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Arbitrage Console</p>
+          <h1>ArbFinder</h1>
+          <p class="lede">
+            Unified view of value bets and odds API opportunities.
+          </p>
+        </div>
+        <div class="hero-card">
+          <div class="hero-stat">
+            <span>Last refresh</span>
+            <strong id="last-refresh">Never</strong>
+          </div>
+          <div class="hero-stat">
+            <span>API status</span>
+            <strong id="api-status">Idle</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Signed in as</span>
+            <strong id="user-badge">Unknown</strong>
+          </div>
+          <a class="link" href="./admin.html" id="admin-link">Admin console</a>
+          <a class="link" href="./performance.html">Performance</a>
+          <button class="link link--button" id="logout-btn" type="button">
+            Log out
+          </button>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Connection</h2>
+          <div class="panel-actions">
+            <button class="button button--ghost" id="theme-toggle">Toggle theme</button>
+            <button class="button" id="refresh-all">Refresh all</button>
+          </div>
+        </div>
+        <div class="controls">
+          <label class="field">
+            <span>API base URL</span>
+            <input id="api-base" type="text" value="http://127.0.0.1:8000" />
+          </label>
+          <label class="field">
+            <span>Stake pool</span>
+            <input id="stake-pool" type="number" step="1" value="100" />
+          </label>
+        </div>
+      </section>
+
+      <section class="grid">
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Value Bets (EV ≥ 105%)</h3>
+            <label class="field field--inline">
+              <span>Sort</span>
+              <select id="valuebet-sort">
+                <option value="none">Default</option>
+                <option value="ev">Highest EV</option>
+                <option value="time">Start time</option>
+              </select>
+            </label>
+            <button class="button button--ghost" id="valuebet-show-dismissed">
+              Show dismissed
+            </button>
+            <button class="button button--ghost" id="refresh-valuebets">Refresh</button>
+          </div>
+          <div class="summary" id="valuebet-summary">No data loaded.</div>
+          <div class="table" id="valuebet-table"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Arbitrage Opportunities</h3>
+            <button class="button button--ghost" id="refresh-odds-api">
+              Refresh
+            </button>
+          </div>
+          <div class="summary" id="odds-api-summary">No data loaded.</div>
+          <div class="table" id="odds-api-table"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

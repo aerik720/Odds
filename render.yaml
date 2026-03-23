@@ -1,0 +1,49 @@
+databases:
+  - name: arbfinder-db
+    plan: starter
+
+services:
+  - type: web
+    name: arbfinder-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: arbfinder-db
+          property: connectionString
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: ODDS_API_KEY
+        sync: false
+      - key: ODDS_API_BOOKMAKERS
+        sync: false
+      - key: SMARKETS_ODDS_API_KEY
+        sync: false
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        sync: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: SMTP_FROM
+        sync: false
+      - key: SMTP_TO
+        sync: false
+      - key: SMTP_USE_TLS
+        sync: false
+
+  - type: web
+    name: arbfinder-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: ""
+    staticPublishPath: .

@@ -1,0 +1,1058 @@
+[
+  {
+    "name": "10BET",
+    "active": true
+  },
+  {
+    "name": "12bet",
+    "active": true
+  },
+  {
+    "name": "188bet",
+    "active": true
+  },
+  {
+    "name": "18bet",
+    "active": true
+  },
+  {
+    "name": "1Bet",
+    "active": true
+  },
+  {
+    "name": "1xbet",
+    "active": true
+  },
+  {
+    "name": "20Bet",
+    "active": true
+  },
+  {
+    "name": "31Bet",
+    "active": true
+  },
+  {
+    "name": "7Bet LT",
+    "active": true
+  },
+  {
+    "name": "888Sport",
+    "active": true
+  },
+  {
+    "name": "888Sport CA",
+    "active": true
+  },
+  {
+    "name": "888Sport IT",
+    "active": true
+  },
+  {
+    "name": "ATG SE",
+    "active": true
+  },
+  {
+    "name": "AdmiralBet DE",
+    "active": true
+  },
+  {
+    "name": "AdmiralBet IT",
+    "active": true
+  },
+  {
+    "name": "All British Casino",
+    "active": true
+  },
+  {
+    "name": "AlphaWin",
+    "active": true
+  },
+  {
+    "name": "Apostamax",
+    "active": true
+  },
+  {
+    "name": "Apostatudo",
+    "active": true
+  },
+  {
+    "name": "Apuesta Total",
+    "active": false
+  },
+  {
+    "name": "B2xbet",
+    "active": true
+  },
+  {
+    "name": "BC.Game",
+    "active": true
+  },
+  {
+    "name": "BRX",
+    "active": true
+  },
+  {
+    "name": "Bally Bet",
+    "active": true
+  },
+  {
+    "name": "BandBet",
+    "active": false
+  },
+  {
+    "name": "BarriereBet FR",
+    "active": true
+  },
+  {
+    "name": "Bet Da Sorte",
+    "active": true
+  },
+  {
+    "name": "Bet-At-Home",
+    "active": false
+  },
+  {
+    "name": "Bet.bet",
+    "active": true
+  },
+  {
+    "name": "Bet365",
+    "active": true
+  },
+  {
+    "name": "Bet7k",
+    "active": true
+  },
+  {
+    "name": "BetFlag IT",
+    "active": true
+  },
+  {
+    "name": "BetMGM",
+    "active": true
+  },
+  {
+    "name": "BetMGM BR",
+    "active": true
+  },
+  {
+    "name": "BetOnRed",
+    "active": true
+  },
+  {
+    "name": "BetOnline.ag",
+    "active": true
+  },
+  {
+    "name": "BetParx",
+    "active": true
+  },
+  {
+    "name": "BetRivers",
+    "active": true
+  },
+  {
+    "name": "BetUK",
+    "active": true
+  },
+  {
+    "name": "BetVictor",
+    "active": false
+  },
+  {
+    "name": "BetWinner",
+    "active": true
+  },
+  {
+    "name": "Betano",
+    "active": true
+  },
+  {
+    "name": "Betano BG",
+    "active": true
+  },
+  {
+    "name": "Betano BR",
+    "active": true
+  },
+  {
+    "name": "Betano CA",
+    "active": true
+  },
+  {
+    "name": "Betano DE",
+    "active": true
+  },
+  {
+    "name": "Betano DK",
+    "active": true
+  },
+  {
+    "name": "Betano MX",
+    "active": true
+  },
+  {
+    "name": "Betano PE",
+    "active": true
+  },
+  {
+    "name": "Betano PT",
+    "active": true
+  },
+  {
+    "name": "Betano UK",
+    "active": false
+  },
+  {
+    "name": "Betcenter BE",
+    "active": true
+  },
+  {
+    "name": "Betclic FR",
+    "active": true
+  },
+  {
+    "name": "Betclic PL",
+    "active": true
+  },
+  {
+    "name": "Betcris",
+    "active": true
+  },
+  {
+    "name": "Betfair ES",
+    "active": true
+  },
+  {
+    "name": "Betfair Exchange",
+    "active": true
+  },
+  {
+    "name": "Betfair IT",
+    "active": true
+  },
+  {
+    "name": "Betfair Sportsbook",
+    "active": true
+  },
+  {
+    "name": "Betfalcons",
+    "active": true
+  },
+  {
+    "name": "Betfan PL",
+    "active": true
+  },
+  {
+    "name": "Betfinal",
+    "active": false
+  },
+  {
+    "name": "Betfury",
+    "active": false
+  },
+  {
+    "name": "Betfusion",
+    "active": true
+  },
+  {
+    "name": "Betgorillas",
+    "active": true
+  },
+  {
+    "name": "Betify",
+    "active": true
+  },
+  {
+    "name": "Betinia DK",
+    "active": true
+  },
+  {
+    "name": "Betnacional",
+    "active": true
+  },
+  {
+    "name": "Betplay",
+    "active": true
+  },
+  {
+    "name": "Betsafe",
+    "active": true
+  },
+  {
+    "name": "Betsson",
+    "active": true
+  },
+  {
+    "name": "Betway",
+    "active": true
+  },
+  {
+    "name": "Blaze",
+    "active": true
+  },
+  {
+    "name": "Bluechip",
+    "active": true
+  },
+  {
+    "name": "BookMaker.eu",
+    "active": true
+  },
+  {
+    "name": "Bovada",
+    "active": true
+  },
+  {
+    "name": "BoyleSports",
+    "active": true
+  },
+  {
+    "name": "BullSbet",
+    "active": true
+  },
+  {
+    "name": "Bwin",
+    "active": true
+  },
+  {
+    "name": "Bwin ES",
+    "active": true
+  },
+  {
+    "name": "Bwin FR",
+    "active": true
+  },
+  {
+    "name": "Bwin IT",
+    "active": true
+  },
+  {
+    "name": "CASHPOINT",
+    "active": true
+  },
+  {
+    "name": "Caesars",
+    "active": true
+  },
+  {
+    "name": "CampeonBet",
+    "active": true
+  },
+  {
+    "name": "Campobet DK",
+    "active": true
+  },
+  {
+    "name": "Casa Pariurilor",
+    "active": true
+  },
+  {
+    "name": "Cassino",
+    "active": true
+  },
+  {
+    "name": "Chance.cz",
+    "active": false
+  },
+  {
+    "name": "Circa",
+    "active": true
+  },
+  {
+    "name": "CircusBet FR",
+    "active": true
+  },
+  {
+    "name": "CloudBet",
+    "active": true
+  },
+  {
+    "name": "Coolbet",
+    "active": true
+  },
+  {
+    "name": "Coolzino",
+    "active": true
+  },
+  {
+    "name": "Coral",
+    "active": true
+  },
+  {
+    "name": "CrazyBuzzer",
+    "active": true
+  },
+  {
+    "name": "CryptoLeo",
+    "active": true
+  },
+  {
+    "name": "DACHBET",
+    "active": true
+  },
+  {
+    "name": "DafaBet",
+    "active": true
+  },
+  {
+    "name": "DanskeSpil",
+    "active": true
+  },
+  {
+    "name": "Donaldbet",
+    "active": true
+  },
+  {
+    "name": "DraftKings",
+    "active": true
+  },
+  {
+    "name": "Dream.bet",
+    "active": true
+  },
+  {
+    "name": "Duel",
+    "active": true
+  },
+  {
+    "name": "ESPN BET",
+    "active": true
+  },
+  {
+    "name": "Epicbet",
+    "active": false
+  },
+  {
+    "name": "Esportiva Bet",
+    "active": false
+  },
+  {
+    "name": "Estrela Bet",
+    "active": true
+  },
+  {
+    "name": "Eurobet IT",
+    "active": true
+  },
+  {
+    "name": "Expekt DK",
+    "active": false
+  },
+  {
+    "name": "Expekt SE",
+    "active": true
+  },
+  {
+    "name": "FB Sports",
+    "active": true
+  },
+  {
+    "name": "FDJ",
+    "active": true
+  },
+  {
+    "name": "FG6 (Loterj)",
+    "active": true
+  },
+  {
+    "name": "Fair999 Exchange",
+    "active": true
+  },
+  {
+    "name": "FairPari",
+    "active": true
+  },
+  {
+    "name": "FanDuel",
+    "active": true
+  },
+  {
+    "name": "Fanatics",
+    "active": true
+  },
+  {
+    "name": "Fezbet",
+    "active": true
+  },
+  {
+    "name": "Fliff",
+    "active": true
+  },
+  {
+    "name": "FortuneJack",
+    "active": true
+  },
+  {
+    "name": "FreshBet",
+    "active": true
+  },
+  {
+    "name": "Gamdom",
+    "active": true
+  },
+  {
+    "name": "Gana777",
+    "active": true
+  },
+  {
+    "name": "Goldbet IT",
+    "active": true
+  },
+  {
+    "name": "Golden Palace Sports BE",
+    "active": true
+  },
+  {
+    "name": "GoldenBet",
+    "active": true
+  },
+  {
+    "name": "GreatWin",
+    "active": true
+  },
+  {
+    "name": "HKJC",
+    "active": true
+  },
+  {
+    "name": "Hanzbet",
+    "active": true
+  },
+  {
+    "name": "Hard Rock Bet",
+    "active": true
+  },
+  {
+    "name": "Iddaa",
+    "active": true
+  },
+  {
+    "name": "Inbet",
+    "active": true
+  },
+  {
+    "name": "Inkabet",
+    "active": true
+  },
+  {
+    "name": "Interwetten",
+    "active": true
+  },
+  {
+    "name": "Ivibet",
+    "active": true
+  },
+  {
+    "name": "JackBit",
+    "active": true
+  },
+  {
+    "name": "Jog\u00e3o",
+    "active": true
+  },
+  {
+    "name": "JustBet",
+    "active": true
+  },
+  {
+    "name": "KTO",
+    "active": true
+  },
+  {
+    "name": "Kalshi",
+    "active": true
+  },
+  {
+    "name": "Kambi",
+    "active": true
+  },
+  {
+    "name": "LVbet PL",
+    "active": true
+  },
+  {
+    "name": "Ladbrokes",
+    "active": true
+  },
+  {
+    "name": "Ladbrokes DE",
+    "active": true
+  },
+  {
+    "name": "LeoVegas",
+    "active": true
+  },
+  {
+    "name": "LeoVegas DK",
+    "active": false
+  },
+  {
+    "name": "LeoVegas ES",
+    "active": true
+  },
+  {
+    "name": "LeoVegas IT",
+    "active": true
+  },
+  {
+    "name": "LeoVegas NL",
+    "active": true
+  },
+  {
+    "name": "LeoVegas Sport",
+    "active": false
+  },
+  {
+    "name": "LibraBet",
+    "active": true
+  },
+  {
+    "name": "Liderbet",
+    "active": true
+  },
+  {
+    "name": "LiveScoreBet",
+    "active": false
+  },
+  {
+    "name": "Lottoland",
+    "active": true
+  },
+  {
+    "name": "Lottomatica IT",
+    "active": true
+  },
+  {
+    "name": "LowVig AG",
+    "active": true
+  },
+  {
+    "name": "Luckia ES",
+    "active": true
+  },
+  {
+    "name": "M88",
+    "active": true
+  },
+  {
+    "name": "Marathonbet",
+    "active": true
+  },
+  {
+    "name": "MegaPari",
+    "active": true
+  },
+  {
+    "name": "MelBet",
+    "active": true
+  },
+  {
+    "name": "Merkur Bets",
+    "active": true
+  },
+  {
+    "name": "MerkurXtip CZ",
+    "active": true
+  },
+  {
+    "name": "Mmabet",
+    "active": true
+  },
+  {
+    "name": "Mozzart Bet",
+    "active": false
+  },
+  {
+    "name": "Mr. Jack",
+    "active": true
+  },
+  {
+    "name": "MrGreen",
+    "active": true
+  },
+  {
+    "name": "MyBookie",
+    "active": true
+  },
+  {
+    "name": "Mystake",
+    "active": true
+  },
+  {
+    "name": "NetBet",
+    "active": true
+  },
+  {
+    "name": "Nextbet",
+    "active": false
+  },
+  {
+    "name": "Ninecasino",
+    "active": true
+  },
+  {
+    "name": "NordicBet",
+    "active": true
+  },
+  {
+    "name": "NordicBet DK",
+    "active": true
+  },
+  {
+    "name": "Norsk Tipping",
+    "active": true
+  },
+  {
+    "name": "Novibet",
+    "active": true
+  },
+  {
+    "name": "Orbit Exchange",
+    "active": true
+  },
+  {
+    "name": "PAF ES",
+    "active": true
+  },
+  {
+    "name": "PAGBET",
+    "active": true
+  },
+  {
+    "name": "PMU",
+    "active": true
+  },
+  {
+    "name": "Paddy Power",
+    "active": true
+  },
+  {
+    "name": "Pamestoixima",
+    "active": true
+  },
+  {
+    "name": "Parimatch UK",
+    "active": false
+  },
+  {
+    "name": "Piwi247 Exchange",
+    "active": true
+  },
+  {
+    "name": "Pix Bet",
+    "active": true
+  },
+  {
+    "name": "Pixbet",
+    "active": true
+  },
+  {
+    "name": "Planetwin365 IT",
+    "active": true
+  },
+  {
+    "name": "PointsBet AU",
+    "active": true
+  },
+  {
+    "name": "PokerStars FR",
+    "active": false
+  },
+  {
+    "name": "PokerStars IT",
+    "active": true
+  },
+  {
+    "name": "Polymarket",
+    "active": true
+  },
+  {
+    "name": "Powbet",
+    "active": true
+  },
+  {
+    "name": "PrizePicks",
+    "active": true
+  },
+  {
+    "name": "Prophet Exchange",
+    "active": true
+  },
+  {
+    "name": "Qbet",
+    "active": false
+  },
+  {
+    "name": "QuickWin",
+    "active": true
+  },
+  {
+    "name": "Quigioco IT",
+    "active": true
+  },
+  {
+    "name": "Rabona",
+    "active": true
+  },
+  {
+    "name": "Rainbet",
+    "active": true
+  },
+  {
+    "name": "RajBet",
+    "active": true
+  },
+  {
+    "name": "Ricobet",
+    "active": true
+  },
+  {
+    "name": "Rollbit",
+    "active": true
+  },
+  {
+    "name": "Rolletto",
+    "active": true
+  },
+  {
+    "name": "Roobet",
+    "active": true
+  },
+  {
+    "name": "STS PL",
+    "active": true
+  },
+  {
+    "name": "Sbobet",
+    "active": true
+  },
+  {
+    "name": "Sbobet_2",
+    "active": false
+  },
+  {
+    "name": "Sharp Exchange",
+    "active": true
+  },
+  {
+    "name": "SingBet",
+    "active": true
+  },
+  {
+    "name": "Sisal IT",
+    "active": true
+  },
+  {
+    "name": "Skybet",
+    "active": true
+  },
+  {
+    "name": "Snai IT",
+    "active": true
+  },
+  {
+    "name": "Sortenabet",
+    "active": true
+  },
+  {
+    "name": "Spelet LV",
+    "active": true
+  },
+  {
+    "name": "SportBetting AG",
+    "active": true
+  },
+  {
+    "name": "Sportaza",
+    "active": true
+  },
+  {
+    "name": "SportingBet",
+    "active": true
+  },
+  {
+    "name": "SportingBet ZA",
+    "active": true
+  },
+  {
+    "name": "Sportingbet BR",
+    "active": true
+  },
+  {
+    "name": "Sports411",
+    "active": true
+  },
+  {
+    "name": "Sportsbet.com.au",
+    "active": true
+  },
+  {
+    "name": "SportyBet",
+    "active": true
+  },
+  {
+    "name": "Stake",
+    "active": true
+  },
+  {
+    "name": "Stake.bet.br",
+    "active": true
+  },
+  {
+    "name": "Stanleybet IT",
+    "active": false
+  },
+  {
+    "name": "Stoiximan",
+    "active": false
+  },
+  {
+    "name": "SugarHouse",
+    "active": true
+  },
+  {
+    "name": "Superbet",
+    "active": true
+  },
+  {
+    "name": "SvenskaSpel",
+    "active": true
+  },
+  {
+    "name": "TABtouch AU",
+    "active": true
+  },
+  {
+    "name": "Tab AU",
+    "active": false
+  },
+  {
+    "name": "Tiger Gaming",
+    "active": true
+  },
+  {
+    "name": "Tipico DE",
+    "active": true
+  },
+  {
+    "name": "Tippmix",
+    "active": true
+  },
+  {
+    "name": "TippmixPRO",
+    "active": false
+  },
+  {
+    "name": "Tipsport.cz",
+    "active": false
+  },
+  {
+    "name": "TonyBet",
+    "active": true
+  },
+  {
+    "name": "Underdog",
+    "active": true
+  },
+  {
+    "name": "Unibet",
+    "active": true
+  },
+  {
+    "name": "Unibet AU",
+    "active": true
+  },
+  {
+    "name": "Unibet BE",
+    "active": true
+  },
+  {
+    "name": "Unibet DK",
+    "active": true
+  },
+  {
+    "name": "Unibet FR",
+    "active": true
+  },
+  {
+    "name": "Unibet IT",
+    "active": false
+  },
+  {
+    "name": "Unibet SE",
+    "active": true
+  },
+  {
+    "name": "Unibet UK",
+    "active": true
+  },
+  {
+    "name": "Vave",
+    "active": true
+  },
+  {
+    "name": "Vbet",
+    "active": true
+  },
+  {
+    "name": "Vbet BR",
+    "active": true
+  },
+  {
+    "name": "Veikkaus",
+    "active": true
+  },
+  {
+    "name": "VeloBet",
+    "active": true
+  },
+  {
+    "name": "Verabet",
+    "active": true
+  },
+  {
+    "name": "WELTBET",
+    "active": true
+  },
+  {
+    "name": "Wazamba",
+    "active": true
+  },
+  {
+    "name": "WilliamHill",
+    "active": true
+  },
+  {
+    "name": "WilliamHill NJ",
+    "active": true
+  },
+  {
+    "name": "Winamax DE",
+    "active": true
+  },
+  {
+    "name": "Winamax FR",
+    "active": true
+  },
+  {
+    "name": "Winpot MX",
+    "active": true
+  },
+  {
+    "name": "ZEbet FR",
+    "active": true
+  },
+  {
+    "name": "bet365 NJ",
+    "active": true
+  },
+  {
+    "name": "eFortuna PL",
+    "active": true
+  },
+  {
+    "name": "paf",
+    "active": true
+  }
+]

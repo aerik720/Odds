@@ -1,0 +1,281 @@
+[
+  {
+    "id": "22766028-ML-SvenskaSpel-home-Bet365-away",
+    "eventId": 22766028,
+    "profitMargin": 12.36,
+    "totalStake": 1000,
+    "impliedProbability": 0.89,
+    "market": {
+      "name": "ML"
+    },
+    "legs": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "home",
+        "odds": "2.28",
+        "href": "https://spela.svenskaspel.se/odds/football/e/e/e-e/1026378796"
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "away",
+        "odds": "2.2",
+        "href": "https://www.bet365.com/#/AC/B13/C21116163/D8/E188438960/F8/"
+      }
+    ],
+    "optimalStakes": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "home",
+        "stake": 491.07,
+        "potentialReturn": 1119.64
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "away",
+        "stake": 508.93,
+        "potentialReturn": 1119.65
+      }
+    ],
+    "updatedAt": "2026-01-23T10:50:44.643815Z",
+    "event": {
+      "home": "Arantxa Rus",
+      "away": "Carole Monnet",
+      "date": "2026-01-24T07:00:00Z",
+      "sport": "Tennis",
+      "league": "ITF Women - Manama"
+    }
+  },
+  {
+    "id": "62940643-Totals-3.50-SvenskaSpel-over-Bet365-under",
+    "eventId": 62940643,
+    "profitMargin": 1.01,
+    "totalStake": 1000,
+    "impliedProbability": 0.99,
+    "market": {
+      "name": "Totals",
+      "hdp": 3.5
+    },
+    "legs": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "over",
+        "odds": "2.1",
+        "href": "https://spela.svenskaspel.se/odds/football/e/e/e-e/1026297884"
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "under",
+        "odds": "1.95",
+        "href": "https://www.bet365.com/#/AC/B1/C1/D8/E188454235/F3/I0/"
+      }
+    ],
+    "optimalStakes": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "over",
+        "stake": 481.48,
+        "potentialReturn": 1011.11
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "under",
+        "stake": 518.52,
+        "potentialReturn": 1011.11
+      }
+    ],
+    "updatedAt": "2026-01-23T14:36:09.878012Z",
+    "event": {
+      "home": "Real Madrid",
+      "away": "CF Burgos",
+      "date": "2026-01-24T11:00:00Z",
+      "sport": "Football",
+      "league": "Spain - U19 Division de Honor Juvenil"
+    }
+  },
+  {
+    "id": "67594742-ML-SvenskaSpel-home-Bet365-away",
+    "eventId": 67594742,
+    "profitMargin": 1.01,
+    "totalStake": 1000,
+    "impliedProbability": 0.99,
+    "market": {
+      "name": "ML"
+    },
+    "legs": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "home",
+        "odds": "2.04",
+        "href": "https://spela.svenskaspel.se/odds/football/e/e/e-e/1026194624"
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "away",
+        "odds": "2",
+        "href": "https://www.bet365.com/#/AC/B151/C21109980/D19/E24763645/F19/"
+      }
+    ],
+    "optimalStakes": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "home",
+        "stake": 495.05,
+        "potentialReturn": 1009.9
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "away",
+        "stake": 504.95,
+        "potentialReturn": 1009.9
+      }
+    ],
+    "updatedAt": "2026-01-23T14:11:25.936198Z",
+    "event": {
+      "home": "Loud",
+      "away": "Los",
+      "date": "2026-01-24T19:00:00Z",
+      "sport": "Esports",
+      "league": "League of Legends - CBLOL"
+    }
+  },
+  {
+    "id": "22760141-Spread-1.50-SvenskaSpel-home-Bet365-away",
+    "eventId": 22760141,
+    "profitMargin": 1.01,
+    "totalStake": 1000,
+    "impliedProbability": 0.99,
+    "market": {
+      "name": "Spread",
+      "hdp": 1.5
+    },
+    "legs": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "home",
+        "odds": "1.82",
+        "href": "https://spela.svenskaspel.se/odds/football/e/e/e-e/1026372521"
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "away",
+        "odds": "2.25",
+        "href": "https://www.bet365.com/#/AC/B151/C21113029/D19/E24791512/F19/"
+      }
+    ],
+    "optimalStakes": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "home",
+        "stake": 552.83,
+        "potentialReturn": 1006.15
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "away",
+        "stake": 447.17,
+        "potentialReturn": 1006.13
+      }
+    ],
+    "updatedAt": "2026-01-23T13:00:16.331Z",
+    "event": {
+      "home": "BBL",
+      "away": "Fnatic",
+      "date": "2026-01-23T16:00:00Z",
+      "sport": "Esports",
+      "league": "Valorant - Champions Tour: Kickoff EMEA"
+    }
+  },
+  {
+    "id": "63100663-Spread-2.50-Bet365-home-SvenskaSpel-away",
+    "eventId": 63100663,
+    "profitMargin": 1.01,
+    "totalStake": 1000,
+    "impliedProbability": 0.99,
+    "market": {
+      "name": "Spread",
+      "hdp": 2.5
+    },
+    "legs": [
+      {
+        "bookmaker": "Bet365",
+        "side": "home",
+        "odds": "2.5",
+        "href": "https://www.bet365.com/#/AC/B91/C21091945/D19/E24714203/F19/"
+      },
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "away",
+        "odds": "1.7",
+        "href": "https://spela.svenskaspel.se/odds/football/e/e/e-e/1024712401"
+      }
+    ],
+    "optimalStakes": [
+      {
+        "bookmaker": "Bet365",
+        "side": "home",
+        "stake": 404.76,
+        "potentialReturn": 1011.9
+      },
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "away",
+        "stake": 595.24,
+        "potentialReturn": 1011.91
+      }
+    ],
+    "updatedAt": "2026-01-23T12:48:03.571956Z",
+    "event": {
+      "home": "Radomka Radom",
+      "away": "KS Rzeszow",
+      "date": "2026-01-23T16:30:00Z",
+      "sport": "Volleyball",
+      "league": "Poland - Liga Siatkowki, Women"
+    }
+  },
+  {
+    "id": "67498708-ML-SvenskaSpel-home-Bet365-away",
+    "eventId": 67498708,
+    "profitMargin": 1.01,
+    "totalStake": 1000,
+    "impliedProbability": 0.99,
+    "market": {
+      "name": "ML"
+    },
+    "legs": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "home",
+        "odds": "1.32",
+        "href": "https://spela.svenskaspel.se/odds/football/e/e/e-e/1026190999"
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "away",
+        "odds": "4.33",
+        "href": "https://www.bet365.com/#/AC/B151/C21112607/D19/E24757200/F19/"
+      }
+    ],
+    "optimalStakes": [
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "home",
+        "stake": 766.37,
+        "potentialReturn": 1011.61
+      },
+      {
+        "bookmaker": "Bet365",
+        "side": "away",
+        "stake": 233.63,
+        "potentialReturn": 1011.62
+      }
+    ],
+    "updatedAt": "2026-01-23T10:49:04.240767Z",
+    "event": {
+      "home": "Team Secret Whales",
+      "away": "Deep Cross Gaming",
+      "date": "2026-01-24T06:00:00Z",
+      "sport": "Esports",
+      "league": "League of Legends - LCP"
+    }
+  }
+]

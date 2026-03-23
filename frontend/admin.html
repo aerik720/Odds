@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArbFinder Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="backdrop">
+      <div class="blob blob--a"></div>
+      <div class="blob blob--b"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <main class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Admin Console</p>
+          <h1>ArbFinder Admin</h1>
+          <p class="lede">Trigger data pulls and track feed health in one place.</p>
+        </div>
+        <div class="hero-card">
+          <div class="hero-stat">
+            <span>Last refresh</span>
+            <strong id="admin-last-refresh">Never</strong>
+          </div>
+          <div class="hero-stat">
+            <span>API status</span>
+            <strong id="admin-api-status">Idle</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Signed in as</span>
+            <strong id="admin-user-badge">Unknown</strong>
+          </div>
+          <a class="link" href="./index.html">Back to dashboard</a>
+          <a class="link" href="./performance.html">Performance</a>
+          <button class="link link--button" id="admin-logout" type="button">
+            Log out
+          </button>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Admin Controls</h2>
+          <div class="panel-actions">
+            <button class="button button--ghost" id="admin-theme-toggle">
+              Toggle theme
+            </button>
+            <button class="button" id="admin-refresh">Refresh</button>
+          </div>
+        </div>
+        <div class="controls">
+          <label class="field">
+            <span>API base URL</span>
+            <input id="admin-api-base" type="text" value="http://127.0.0.1:8000" />
+          </label>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <div class="card-header">
+            <h3>Tasks</h3>
+            <button class="button button--ghost" id="auto-arb-toggle">
+              Start auto arbitrage
+            </button>
+          </div>
+          <div class="summary">Run controlled backend scripts.</div>
+          <div class="progress">
+            <div class="progress__label" id="admin-task-status">Idle</div>
+            <div class="progress__track">
+              <div class="progress__fill" id="admin-task-progress"></div>
+            </div>
+          </div>
+          <div class="summary" id="auto-arb-status">Auto arbitrage is off.</div>
+          <div class="summary" id="arb-verify-stats">Verification: n/a</div>
+          <div class="table" id="admin-tasks">
+            <button class="button" data-task="run_odds_api">Fetch Odds API</button>
+            <button class="button" data-task="run_odds_api_arbitrage">
+              Fetch Odds API arbitrage
+            </button>
+            <button class="button" data-task="run_valuebets_smarkets">
+              Fetch value bets
+            </button>
+          </div>
+          <div class="log" id="admin-task-log">Ready.</div>
+          <div class="notice" id="arb-alert"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Bookmaker Stats</h3>
+          </div>
+          <div class="summary" id="admin-stats-summary">No data loaded.</div>
+          <div class="table" id="admin-stats-table"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>User Management</h2>
+          <div class="panel-actions">
+            <button class="button button--ghost" id="admin-users-refresh">
+              Refresh users
+            </button>
+          </div>
+        </div>
+        <form class="controls" id="admin-user-form">
+          <label class="field">
+            <span>Email</span>
+            <input id="admin-user-email" type="text" placeholder="user@example.com" />
+          </label>
+          <label class="field">
+            <span>Temporary password</span>
+            <input id="admin-user-password" type="text" placeholder="Set a password" />
+          </label>
+          <label class="field">
+            <span>Role</span>
+            <select id="admin-user-role">
+              <option value="user">User</option>
+              <option value="admin">Admin</option>
+            </select>
+          </label>
+          <div class="field field--actions">
+            <button class="button" type="submit">Create user</button>
+          </div>
+        </form>
+        <div class="summary" id="admin-users-summary">No users loaded.</div>
+        <div class="table" id="admin-users-table"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Odds API Bookmakers</h2>
+        </div>
+        <div class="summary">
+          Free plan allows max 2 bookmakers. Switch between pairs to test.
+        </div>
+        <form class="controls" id="admin-bookmakers-form">
+          <label class="field">
+            <span>Bookmakers (comma-separated)</span>
+            <input
+              id="admin-bookmakers-input"
+              type="text"
+              placeholder="SvenskaSpel,Bet365"
+            />
+          </label>
+          <label class="field">
+            <span>Quick select (max 2)</span>
+            <select id="admin-bookmakers-select" multiple>
+              <option value="SvenskaSpel">SvenskaSpel</option>
+              <option value="Bet365">Bet365</option>
+              <option value="ATG SE">ATG SE</option>
+              <option value="paf">paf</option>
+            </select>
+          </label>
+          <div class="field field--actions">
+            <button class="button" type="submit">Save selection</button>
+          </div>
+        </form>
+        <div class="summary" id="admin-bookmakers-status">No selection loaded.</div>
+      </section>
+    </main>
+
+    <script src="./admin.js"></script>
+  </body>
+</html>

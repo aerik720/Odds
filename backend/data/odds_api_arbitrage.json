@@ -1,0 +1,49 @@
+[
+  {
+    "id": "63369999-Totals-4.50-paf-over-SvenskaSpel-under",
+    "eventId": 63369999,
+    "profitMargin": 12.29757896424563,
+    "totalStake": 1000,
+    "impliedProbability": 0.8770242103575437,
+    "market": {
+      "name": "Totals",
+      "hdp": 4.5
+    },
+    "legs": [
+      {
+        "bookmaker": "paf",
+        "side": "over",
+        "odds": "3.850",
+        "href": "https://www.paf.com/sports/event/1024820198"
+      },
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "under",
+        "odds": "1.62",
+        "href": "https://spela.svenskaspel.se/odds/football/e/e/e-e/1024820198"
+      }
+    ],
+    "optimalStakes": [
+      {
+        "bookmaker": "paf",
+        "side": "over",
+        "stake": 291.5,
+        "potentialReturn": 1020.25
+      },
+      {
+        "bookmaker": "SvenskaSpel",
+        "side": "under",
+        "stake": 708.5,
+        "potentialReturn": 1020.24
+      }
+    ],
+    "updatedAt": "2026-01-28T13:54:31.562331+00:00",
+    "event": {
+      "home": "Liverpool FC",
+      "away": "Qarabag FK",
+      "date": "2026-01-28T20:00:00Z",
+      "sport": "Football",
+      "league": "International Clubs - UEFA Champions League"
+    }
+  }
+]

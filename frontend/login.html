@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArbFinder Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="backdrop">
+      <div class="blob blob--a"></div>
+      <div class="blob blob--b"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <main class="auth-shell">
+      <div class="auth-grid">
+        <div class="auth-card">
+          <p class="eyebrow">ArbFinder</p>
+          <h1 class="auth-title">Sign in</h1>
+          <label class="field">
+            <span>API base URL</span>
+            <input id="login-api-base" type="text" value="http://127.0.0.1:8000" />
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input id="login-email" type="text" placeholder="you@example.com" />
+          </label>
+          <label class="field">
+            <span>Password</span>
+            <input id="login-password" type="password" />
+          </label>
+          <button class="button" id="login-submit" type="button">Log in</button>
+          <div class="auth-status" id="login-status">Use your account to access the app.</div>
+        </div>
+
+        <div class="auth-card">
+          <h2 class="auth-title">Register</h2>
+          <p class="summary">Create a user account to track performance.</p>
+          <label class="field">
+            <span>Email</span>
+            <input id="register-email" type="text" placeholder="you@example.com" />
+          </label>
+          <label class="field">
+            <span>Password</span>
+            <input id="register-password" type="password" />
+          </label>
+          <label class="field">
+            <span>Confirm password</span>
+            <input id="register-confirm" type="password" />
+          </label>
+          <button class="button button--ghost" id="register-submit" type="button">
+            Create account
+          </button>
+          <div class="auth-status" id="register-status">Accounts default to user role.</div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./login.js"></script>
+  </body>
+</html>

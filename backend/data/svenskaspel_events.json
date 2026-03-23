@@ -1,0 +1,818 @@
+[
+  {
+    "home": "West Ham",
+    "away": "Sunderland",
+    "href": "/odds/fotboll/england/premier-league/west-ham---sunderland/1024044040",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Burnley",
+    "away": "Tottenham",
+    "href": "/odds/fotboll/england/premier-league/burnley---tottenham/1024044023",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Fulham",
+    "away": "Brighton",
+    "href": "/odds/fotboll/england/premier-league/fulham---brighton/1024044051",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Manchester City",
+    "away": "Wolves",
+    "href": "/odds/fotboll/england/premier-league/manchester-city---wolves/1024044037",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Liverpool",
+    "href": "/odds/fotboll/england/premier-league/bournemouth---liverpool/1024044026",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Brentford",
+    "away": "Nottingham",
+    "href": "/odds/fotboll/england/premier-league/brentford---nottingham/1024044025",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Chelsea",
+    "href": "/odds/fotboll/england/premier-league/crystal-palace---chelsea/1024044048",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Newcastle United",
+    "away": "Aston Villa",
+    "href": "/odds/fotboll/england/premier-league/newcastle-united---aston-villa/1024044043",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Arsenal",
+    "away": "Manchester United",
+    "href": "/odds/fotboll/england/premier-league/arsenal---manchester-united/1024044034",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Everton",
+    "away": "Leeds",
+    "href": "/odds/fotboll/england/premier-league/everton---leeds/1025698262",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Brighton",
+    "away": "Everton",
+    "href": "/odds/fotboll/england/premier-league/brighton---everton/1024044060",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Leeds",
+    "away": "Arsenal",
+    "href": "/odds/fotboll/england/premier-league/leeds---arsenal/1024044059",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Wolves",
+    "away": "Bournemouth",
+    "href": "/odds/fotboll/england/premier-league/wolves---bournemouth/1024044076",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Chelsea",
+    "away": "West Ham",
+    "href": "/odds/fotboll/england/premier-league/chelsea---west-ham/1024044054",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Liverpool",
+    "away": "Newcastle United",
+    "href": "/odds/fotboll/england/premier-league/liverpool---newcastle-united/1024044056",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Brentford",
+    "href": "/odds/fotboll/england/premier-league/aston-villa---brentford/1024044062",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Manchester United",
+    "away": "Fulham",
+    "href": "/odds/fotboll/england/premier-league/manchester-united---fulham/1024044083",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Nottingham",
+    "away": "Crystal Palace",
+    "href": "/odds/fotboll/england/premier-league/nottingham---crystal-palace/1024044080",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Tottenham",
+    "away": "Manchester City",
+    "href": "/odds/fotboll/england/premier-league/tottenham---manchester-city/1024044068",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Sunderland",
+    "away": "Burnley",
+    "href": "/odds/fotboll/england/premier-league/sunderland---burnley/1025698264",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/premier-league"
+  },
+  {
+    "home": "Derby County",
+    "away": "West Bromwich",
+    "href": "/odds/fotboll/england/the-championship/derby-county---west-bromwich/1024125607",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Middlesbrough",
+    "away": "Preston",
+    "href": "/odds/fotboll/england/the-championship/middlesbrough---preston/1024125611",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Millwall",
+    "away": "Charlton Athletic",
+    "href": "/odds/fotboll/england/the-championship/millwall---charlton-athletic/1024125621",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Birmingham",
+    "away": "Stoke",
+    "href": "/odds/fotboll/england/the-championship/birmingham---stoke/1024125602",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Blackburn Rovers",
+    "away": "Watford",
+    "href": "/odds/fotboll/england/the-championship/blackburn-rovers---watford/1024125601",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Bristol City",
+    "away": "Sheffield Wednesday",
+    "href": "/odds/fotboll/england/the-championship/bristol-city---sheffield-wednesday/1024125609",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Hull",
+    "away": "Swansea",
+    "href": "/odds/fotboll/england/the-championship/hull----swansea/1024125605",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Leicester City",
+    "away": "Oxford United",
+    "href": "/odds/fotboll/england/the-championship/leicester-city---oxford-united/1024125612",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "QPR",
+    "away": "Wrexham",
+    "href": "/odds/fotboll/england/the-championship/qpr---wrexham/1024125615",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Sheffield United",
+    "away": "Ipswich Town",
+    "href": "/odds/fotboll/england/the-championship/sheffield-united---ipswich-town/1024125624",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Portsmouth",
+    "away": "Southampton",
+    "href": "/odds/fotboll/england/the-championship/portsmouth----southampton/1024125617",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Norwich City",
+    "away": "Coventry City",
+    "href": "/odds/fotboll/england/the-championship/norwich-city---coventry-city/1024125619",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Bristol City",
+    "away": "Derby County",
+    "href": "/odds/fotboll/england/the-championship/bristol-city---derby-county/1024125560",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Leicester City",
+    "away": "Charlton Athletic",
+    "href": "/odds/fotboll/england/the-championship/leicester-city---charlton-athletic/1024125554",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Sheffield Wednesday",
+    "away": "Wrexham",
+    "href": "/odds/fotboll/england/the-championship/sheffield-wednesday---wrexham/1024125575",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Stoke",
+    "away": "Southampton",
+    "href": "/odds/fotboll/england/the-championship/stoke---southampton/1024125589",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Blackburn Rovers",
+    "away": "Hull",
+    "href": "/odds/fotboll/england/the-championship/blackburn-rovers---hull-/1024125563",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Ipswich Town",
+    "away": "Preston",
+    "href": "/odds/fotboll/england/the-championship/ipswich-town---preston/1024125557",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Middlesbrough",
+    "away": "Norwich City",
+    "href": "/odds/fotboll/england/the-championship/middlesbrough---norwich-city/1024125566",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Millwall",
+    "away": "Sheffield United",
+    "href": "/odds/fotboll/england/the-championship/millwall---sheffield-united/1024125570",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Oxford United",
+    "away": "Birmingham",
+    "href": "/odds/fotboll/england/the-championship/oxford-united---birmingham/1024125583",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Portsmouth",
+    "away": "West Bromwich",
+    "href": "/odds/fotboll/england/the-championship/portsmouth----west-bromwich/1024125581",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "QPR",
+    "away": "Coventry City",
+    "href": "/odds/fotboll/england/the-championship/qpr---coventry-city/1024125578",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Watford",
+    "away": "Swansea",
+    "href": "/odds/fotboll/england/the-championship/watford---swansea/1024125600",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/england/the-championship"
+  },
+  {
+    "home": "Levante",
+    "away": "Elche",
+    "href": "/odds/fotboll/spanien/la-liga/levante---elche/1024182583",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Rayo Vallecano",
+    "away": "Osasuna",
+    "href": "/odds/fotboll/spanien/la-liga/rayo-vallecano---osasuna-/1024182494",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Valencia",
+    "away": "Espanyol",
+    "href": "/odds/fotboll/spanien/la-liga/valencia----espanyol-/1024182498",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Sevilla",
+    "away": "Athletic Bilbao",
+    "href": "/odds/fotboll/spanien/la-liga/sevilla---athletic-bilbao/1024182587",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Villarreal",
+    "away": "Real Madrid",
+    "href": "/odds/fotboll/spanien/la-liga/villarreal---real-madrid/1024182492",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Atlético Madrid",
+    "away": "Mallorca",
+    "href": "/odds/fotboll/spanien/la-liga/atletico-madrid---mallorca/1024182591",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "FC Barcelona",
+    "away": "Real Oviedo",
+    "href": "/odds/fotboll/spanien/la-liga/fc-barcelona---real-oviedo/1024182589",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Real Sociedad",
+    "away": "Celta Vigo",
+    "href": "/odds/fotboll/spanien/la-liga/real-sociedad---celta-vigo/1024182585",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Alaves",
+    "away": "Real Betis",
+    "href": "/odds/fotboll/spanien/la-liga/alaves---real-betis/1024182570",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Girona",
+    "away": "Getafe",
+    "href": "/odds/fotboll/spanien/la-liga/girona---getafe/1024182496",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Espanyol",
+    "away": "Alaves",
+    "href": "/odds/fotboll/spanien/la-liga/espanyol----alaves/1024182506",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Real Oviedo",
+    "away": "Girona",
+    "href": "/odds/fotboll/spanien/la-liga/real-oviedo---girona/1024182519",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Osasuna",
+    "away": "Villarreal",
+    "href": "/odds/fotboll/spanien/la-liga/osasuna----villarreal/1024182508",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Levante",
+    "away": "Atlético Madrid",
+    "href": "/odds/fotboll/spanien/la-liga/levante---atletico-madrid/1024182503",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Elche",
+    "away": "FC Barcelona",
+    "href": "/odds/fotboll/spanien/la-liga/elche---fc-barcelona/1024182513",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Real Madrid",
+    "away": "Rayo Vallecano",
+    "href": "/odds/fotboll/spanien/la-liga/real-madrid---rayo-vallecano/1024182517",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Real Betis",
+    "away": "Valencia",
+    "href": "/odds/fotboll/spanien/la-liga/real-betis---valencia-/1024182512",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Getafe",
+    "away": "Celta Vigo",
+    "href": "/odds/fotboll/spanien/la-liga/getafe---celta-vigo/1024182521",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Athletic Bilbao",
+    "away": "Real Sociedad",
+    "href": "/odds/fotboll/spanien/la-liga/athletic-bilbao---real-sociedad/1024182490",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Mallorca",
+    "away": "Sevilla",
+    "href": "/odds/fotboll/spanien/la-liga/mallorca---sevilla/1024182510",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/spanien/la-liga"
+  },
+  {
+    "home": "Bologna",
+    "away": "Celtic",
+    "href": "/odds/fotboll/europa-league/bologna---celtic/1024825792",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Brann",
+    "away": "FC Midtjylland",
+    "href": "/odds/fotboll/europa-league/brann---fc-midtjylland-/1024825793",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Fenerbahce",
+    "away": "Aston Villa",
+    "href": "/odds/fotboll/europa-league/fenerbahce---aston-villa/1024825796",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Feyenoord",
+    "away": "Sturm Graz",
+    "href": "/odds/fotboll/europa-league/feyenoord---sturm-graz/1024825798",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Freiburg",
+    "away": "Maccabi Tel Aviv",
+    "href": "/odds/fotboll/europa-league/freiburg---maccabi-tel-aviv/1024825794",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Malmö FF",
+    "away": "Crvena Zvezda",
+    "href": "/odds/fotboll/europa-league/malmo-ff---crvena-zvezda/1024825795",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "PAOK Thessaloniki",
+    "away": "Real Betis",
+    "href": "/odds/fotboll/europa-league/paok-thessaloniki---real-betis/1024825791",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Viktoria Plzen",
+    "away": "FC Porto",
+    "href": "/odds/fotboll/europa-league/viktoria-plzen---fc-porto/1024825797",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Young Boys",
+    "away": "Lyon",
+    "href": "/odds/fotboll/europa-league/young-boys---lyon/1024825799",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Celta Vigo",
+    "away": "Lille",
+    "href": "/odds/fotboll/europa-league/celta-vigo---lille/1024825782",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Dinamo Zagreb",
+    "away": "FCSB",
+    "href": "/odds/fotboll/europa-league/dinamo-zagreb---fcsb/1024825789",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "FC Utrecht",
+    "away": "KRC Genk",
+    "href": "/odds/fotboll/europa-league/fc-utrecht----krc-genk-/1024825790",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Ferencváros",
+    "away": "Panathinaikos",
+    "href": "/odds/fotboll/europa-league/ferencvaros---panathinaikos/1024825787",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Nice",
+    "away": "Go Ahead Eagles",
+    "href": "/odds/fotboll/europa-league/nice---go-ahead-eagles/1024825788",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Rangers FC",
+    "away": "Ludogorets Razgrad",
+    "href": "/odds/fotboll/europa-league/rangers-fc---ludogorets-razgrad/1024825783",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Red Bull Salzburg",
+    "away": "Basel",
+    "href": "/odds/fotboll/europa-league/red-bull-salzburg---basel/1024825785",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "Roma",
+    "away": "Stuttgart",
+    "href": "/odds/fotboll/europa-league/roma---stuttgart/1024825784",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "S.C. Braga",
+    "away": "Nottingham",
+    "href": "/odds/fotboll/europa-league/sc-braga---nottingham/1024825786",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/europa-league"
+  },
+  {
+    "home": "FC St. Pauli",
+    "away": "Hamburg",
+    "href": "/odds/fotboll/tyskland/bundesliga/fc-st-pauli---hamburg/1024136666",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "1. FC Heidenheim",
+    "away": "RB Leipzig",
+    "href": "/odds/fotboll/tyskland/bundesliga/1-fc-heidenheim---rb-leipzig/1024136673",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Bayer Leverkusen",
+    "away": "Werder Bremen",
+    "href": "/odds/fotboll/tyskland/bundesliga/bayer-leverkusen---werder-bremen/1024136645",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Bayern München",
+    "away": "FC Augsburg",
+    "href": "/odds/fotboll/tyskland/bundesliga/bayern-munchen---fc-augsburg/1024136643",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Eintracht Frankfurt",
+    "away": "TSG Hoffenheim",
+    "href": "/odds/fotboll/tyskland/bundesliga/eintracht-frankfurt---tsg-hoffenheim/1024136661",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Mainz 05",
+    "away": "VfL Wolfsburg",
+    "href": "/odds/fotboll/tyskland/bundesliga/mainz-05---vfl-wolfsburg/1024136668",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "1. FC Union Berlin",
+    "away": "Borussia Dortmund",
+    "href": "/odds/fotboll/tyskland/bundesliga/1-fc-union-berlin---borussia-dortmund/1024136664",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Borussia M'gladbach",
+    "away": "Stuttgart",
+    "href": "/odds/fotboll/tyskland/bundesliga/borussia-mgladbach---stuttgart/1024136669",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Freiburg",
+    "away": "1. FC Köln",
+    "href": "/odds/fotboll/tyskland/bundesliga/freiburg---1-fc-koln/1024136663",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "FC St. Pauli",
+    "away": "RB Leipzig",
+    "href": "/odds/fotboll/tyskland/bundesliga/fc-st-pauli---rb-leipzig/1026272882",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Werder Bremen",
+    "away": "TSG Hoffenheim",
+    "href": "/odds/fotboll/tyskland/bundesliga/werder-bremen---tsg-hoffenheim/1026272881",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "1. FC Köln",
+    "away": "VfL Wolfsburg",
+    "href": "/odds/fotboll/tyskland/bundesliga/1-fc-koln---vfl-wolfsburg/1024136699",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Eintracht Frankfurt",
+    "away": "Bayer Leverkusen",
+    "href": "/odds/fotboll/tyskland/bundesliga/eintracht-frankfurt---bayer-leverkusen/1024136681",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "FC Augsburg",
+    "away": "FC St. Pauli",
+    "href": "/odds/fotboll/tyskland/bundesliga/fc-augsburg---fc-st-pauli/1024136703",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "RB Leipzig",
+    "away": "Mainz 05",
+    "href": "/odds/fotboll/tyskland/bundesliga/rb-leipzig---mainz-05/1024136676",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "TSG Hoffenheim",
+    "away": "1. FC Union Berlin",
+    "href": "/odds/fotboll/tyskland/bundesliga/tsg-hoffenheim---1-fc-union-berlin/1024136697",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Werder Bremen",
+    "away": "Borussia M'gladbach",
+    "href": "/odds/fotboll/tyskland/bundesliga/werder-bremen---borussia-mgladbach/1024136679",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Hamburg",
+    "away": "Bayern München",
+    "href": "/odds/fotboll/tyskland/bundesliga/hamburg---bayern-munchen/1024136692",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Stuttgart",
+    "away": "Freiburg",
+    "href": "/odds/fotboll/tyskland/bundesliga/stuttgart---freiburg/1024136688",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Borussia Dortmund",
+    "away": "1. FC Heidenheim",
+    "href": "/odds/fotboll/tyskland/bundesliga/borussia-dortmund---1-fc-heidenheim/1024136683",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/tyskland/bundesliga"
+  },
+  {
+    "home": "Inter",
+    "away": "Pisa",
+    "href": "/odds/fotboll/italien/serie-a/inter---pisa/1023932273",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Como",
+    "away": "Torino",
+    "href": "/odds/fotboll/italien/serie-a/como---torino/1023932267",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Fiorentina",
+    "away": "Cagliari",
+    "href": "/odds/fotboll/italien/serie-a/fiorentina---cagliari/1023932270",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Lecce",
+    "away": "Lazio",
+    "href": "/odds/fotboll/italien/serie-a/lecce---lazio/1023932212",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Sassuolo",
+    "away": "Cremonese",
+    "href": "/odds/fotboll/italien/serie-a/sassuolo---cremonese/1023932222",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Atalanta",
+    "away": "Parma",
+    "href": "/odds/fotboll/italien/serie-a/atalanta---parma/1023932264",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Genoa",
+    "away": "Bologna",
+    "href": "/odds/fotboll/italien/serie-a/genoa---bologna/1023932272",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Juventus",
+    "away": "Napoli",
+    "href": "/odds/fotboll/italien/serie-a/juventus---napoli/1023932209",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Roma",
+    "away": "AC Milan",
+    "href": "/odds/fotboll/italien/serie-a/roma---ac-milan/1023932215",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Hellas Verona",
+    "away": "Udinese",
+    "href": "/odds/fotboll/italien/serie-a/hellas-verona---udinese/1023932224",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Lazio",
+    "away": "Genoa",
+    "href": "/odds/fotboll/italien/serie-a/lazio---genoa/1023932240",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Pisa",
+    "away": "Sassuolo",
+    "href": "/odds/fotboll/italien/serie-a/pisa---sassuolo/1023932247",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Napoli",
+    "away": "Fiorentina",
+    "href": "/odds/fotboll/italien/serie-a/napoli---fiorentina/1023932241",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Cagliari",
+    "away": "Hellas Verona",
+    "href": "/odds/fotboll/italien/serie-a/cagliari---hellas-verona/1023932232",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Torino",
+    "away": "Lecce",
+    "href": "/odds/fotboll/italien/serie-a/torino---lecce/1023932266",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Como",
+    "away": "Atalanta",
+    "href": "/odds/fotboll/italien/serie-a/como---atalanta/1023932235",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Cremonese",
+    "away": "Inter",
+    "href": "/odds/fotboll/italien/serie-a/cremonese---inter/1023932239",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Parma",
+    "away": "Juventus",
+    "href": "/odds/fotboll/italien/serie-a/parma---juventus/1023932245",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Udinese",
+    "away": "Roma",
+    "href": "/odds/fotboll/italien/serie-a/udinese---roma/1023932269",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Bologna",
+    "away": "AC Milan",
+    "href": "/odds/fotboll/italien/serie-a/bologna---ac-milan/1026289156",
+    "source_url": "https://spela.svenskaspel.se/odds/fotboll/italien/serie-a"
+  },
+  {
+    "home": "Vit Kopriva",
+    "away": "Taylor Fritz",
+    "href": "/odds/tennis/grand-slam/australian-open/vit-kopriva---taylor-fritz/1026353973",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "James Duckworth",
+    "away": "Jannik Sinner",
+    "href": "/odds/tennis/grand-slam/australian-open/james-duckworth---jannik-sinner/1026354453",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Jaume Munar",
+    "away": "Casper Ruud",
+    "href": "/odds/tennis/grand-slam/australian-open/jaume-munar---casper-ruud/1026343693",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Learner Tien",
+    "away": "Nuno Borges",
+    "href": "/odds/tennis/grand-slam/australian-open/learner-tien---nuno-borges/1026364404",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Daniil Medvedev",
+    "away": "Fabian Marozsan",
+    "href": "/odds/tennis/grand-slam/australian-open/daniil-medvedev---fabian-marozsan/1026363501",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Tommy Paul",
+    "away": "Alejandro Davidovich Fokina",
+    "href": "/odds/tennis/grand-slam/australian-open/tommy-paul---alejandro-davidovich-fokina/1026364026",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Carlos Alcaraz",
+    "away": "Corentin Moutet",
+    "href": "/odds/tennis/grand-slam/australian-open/carlos-alcaraz---corentin-moutet/1026364303",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Francisco Cerundolo",
+    "away": "Andrey Rublev",
+    "href": "/odds/tennis/grand-slam/australian-open/francisco-cerundolo---andrey-rublev/1026363039",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Alexander Zverev",
+    "away": "Cameron Norrie",
+    "href": "/odds/tennis/grand-slam/australian-open/alexander-zverev---cameron-norrie/1026366836",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Frances Tiafoe",
+    "away": "Alex De Minaur",
+    "href": "/odds/tennis/grand-slam/australian-open/frances-tiafoe---alex-de-minaur/1026367375",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Alexander Bublik",
+    "away": "Tomas Martin Etcheverry",
+    "href": "/odds/tennis/grand-slam/australian-open/alexander-bublik---tomas-martin-etcheverry/1026365505",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Ben Shelton",
+    "away": "Valentin Vacherot",
+    "href": "/odds/tennis/grand-slam/australian-open/ben-shelton---valentin-vacherot/1026374320",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Jakub Mensik",
+    "away": "Ethan Quinn",
+    "href": "/odds/tennis/grand-slam/australian-open/jakub-mensik---ethan-quinn/1026374669",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  },
+  {
+    "home": "Karen Khachanov",
+    "away": "Luciano Darderi",
+    "href": "/odds/tennis/grand-slam/australian-open/karen-khachanov---luciano-darderi/1026374321",
+    "source_url": "https://spela.svenskaspel.se/odds/tennis"
+  }
+]
