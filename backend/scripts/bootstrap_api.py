@@ -3,11 +3,18 @@ from datetime import datetime, timezone
 
 import requests
 
-BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+def _internal_api_base() -> str:
+    env_base = os.getenv("API_BASE_URL")
+    if env_base:
+        return env_base.rstrip("/")
+    port = os.getenv("PORT")
+    if port:
+        return f"http://127.0.0.1:{port}"
+    return "http://127.0.0.1:8000"
 
 
 def _post(path: str, payload: dict) -> dict:
-    resp = requests.post(f"{BASE_URL}{path}", json=payload, timeout=10)
+    resp = requests.post(f"{_internal_api_base()}{path}", json=payload, timeout=10)
     resp.raise_for_status()
     return resp.json()
 

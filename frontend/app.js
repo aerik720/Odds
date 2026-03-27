@@ -236,12 +236,9 @@ const renderValuebets = (items) => {
     const profit = stake * (ev / 100 - 1);
     const valuebetId = valuebet.id || "";
     const sideLabel = formatValuebetSide(valuebet);
-    const key = betKey([
-      "valuebet",
-      eventName,
-      marketLabel,
-      valuebet.betSide,
-    ]);
+    const key = valuebetId
+      ? `valuebet:${valuebetId}`
+      : betKey(["valuebet", eventName, marketLabel, valuebet.betSide]);
     const row = document.createElement("div");
     row.className = "row";
     row.innerHTML = `
@@ -252,7 +249,11 @@ const renderValuebets = (items) => {
       }
       <div>
         <strong>Event</strong>
-        <div class="pill">${eventName}</div>
+        ${
+          link
+            ? `<a class="pill pill--link" href="${link}" target="_blank" rel="noreferrer">${eventName}</a>`
+            : `<div class="pill">${eventName}</div>`
+        }
         <div class="meta">${formatTimeUntil(event.date)}</div>
         <div>${event.sport || ""} ${event.league || ""}</div>
       </div>
@@ -377,12 +378,17 @@ const renderOddsApi = (items) => {
       })
       .join("<br/>");
 
+    const eventLink = legs.find((leg) => leg && leg.href)?.href || "";
     const row = document.createElement("div");
     row.className = "row";
     row.innerHTML = `
       <div>
         <strong>Event</strong>
-        <div class="pill">${eventName}</div>
+        ${
+          eventLink
+            ? `<a class="pill pill--link" href="${eventLink}" target="_blank" rel="noreferrer">${eventName}</a>`
+            : `<div class="pill">${eventName}</div>`
+        }
         <div class="meta">${formatTimeUntil(startTime)}</div>
         <div>${event.sport || ""} ${event.league || ""}</div>
       </div>

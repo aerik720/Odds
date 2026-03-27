@@ -29,7 +29,14 @@ def _load_env_value(name: str) -> str | None:
     return None
 
 
-INTERNAL_API_BASE = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+def _internal_api_base() -> str:
+    env_base = os.getenv("API_BASE_URL")
+    if env_base:
+        return env_base.rstrip("/")
+    port = os.getenv("PORT")
+    if port:
+        return f"http://127.0.0.1:{port}"
+    return "http://127.0.0.1:8000"
 API_KEY = _load_env_value("ODDS_API_KEY")
 BOOKMAKER_REGION_DEFAULT = "API"
 SESSION = requests.Session()
@@ -69,7 +76,7 @@ def _post(path: str, payload: dict) -> dict:
     if ADMIN_TOKEN:
         headers["Authorization"] = f"Bearer {ADMIN_TOKEN}"
     resp = requests.post(
-        f"{INTERNAL_API_BASE}{path}", json=payload, headers=headers, timeout=30
+        f"{_internal_api_base()}{path}", json=payload, headers=headers, timeout=30
     )
     resp.raise_for_status()
     return resp.json()
@@ -79,7 +86,7 @@ def _get_admin_token() -> str | None:
     if not ADMIN_EMAIL or not ADMIN_PASSWORD:
         return None
     resp = requests.post(
-        f"{INTERNAL_API_BASE}/auth/login",
+        f"{_internal_api_base()}/auth/login",
         data={"username": ADMIN_EMAIL, "password": ADMIN_PASSWORD},
         timeout=30,
     )
