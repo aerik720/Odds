@@ -19,6 +19,8 @@ const userBadge = document.getElementById("perf-user-badge");
 const AUTH_TOKEN_KEY = "auth-token";
 const API_BASE_KEY = "api-base";
 let currentUser = null;
+const DEFAULT_API_BASE =
+  window.APP_CONFIG?.API_BASE || "http://127.0.0.1:8000";
 
 const formatNumber = (value, digits = 2) => {
   const num = Number(value);
@@ -34,7 +36,7 @@ const formatDate = (value) => {
 };
 
 const baseUrl = () =>
-  (localStorage.getItem(API_BASE_KEY) || "http://127.0.0.1:8000").replace(/\/$/, "");
+  (localStorage.getItem(API_BASE_KEY) || DEFAULT_API_BASE).replace(/\/$/, "");
 
 const getToken = () => localStorage.getItem(AUTH_TOKEN_KEY) || "";
 

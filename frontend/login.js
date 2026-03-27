@@ -1,4 +1,6 @@
 const apiBaseInput = document.getElementById("login-api-base");
+const DEFAULT_API_BASE =
+  window.APP_CONFIG?.API_BASE || "http://127.0.0.1:8000";
 const loginEmailInput = document.getElementById("login-email");
 const loginPasswordInput = document.getElementById("login-password");
 const loginSubmit = document.getElementById("login-submit");
@@ -105,7 +107,8 @@ const register = async () => {
   }
 };
 
-apiBaseInput.value = localStorage.getItem(API_BASE_KEY) || apiBaseInput.value;
+apiBaseInput.value =
+  localStorage.getItem(API_BASE_KEY) || DEFAULT_API_BASE;
 apiBaseInput.addEventListener("change", () => {
   localStorage.setItem(API_BASE_KEY, apiBaseInput.value);
 });

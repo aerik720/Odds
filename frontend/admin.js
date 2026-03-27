@@ -1,4 +1,6 @@
 const apiBaseInput = document.getElementById("admin-api-base");
+const DEFAULT_API_BASE =
+  window.APP_CONFIG?.API_BASE || "http://127.0.0.1:8000";
 const apiStatus = document.getElementById("admin-api-status");
 const lastRefresh = document.getElementById("admin-last-refresh");
 const refreshBtn = document.getElementById("admin-refresh");
@@ -543,7 +545,8 @@ if (bookmakersForm) {
   });
 }
 
-apiBaseInput.value = localStorage.getItem(API_BASE_KEY) || apiBaseInput.value;
+apiBaseInput.value =
+  localStorage.getItem(API_BASE_KEY) || DEFAULT_API_BASE;
 apiBaseInput.addEventListener("change", () => {
   localStorage.setItem(API_BASE_KEY, apiBaseInput.value);
 });

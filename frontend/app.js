@@ -1,4 +1,6 @@
 const apiBaseInput = document.getElementById("api-base");
+const DEFAULT_API_BASE =
+  window.APP_CONFIG?.API_BASE || "http://127.0.0.1:8000";
 const stakePoolInput = document.getElementById("stake-pool");
 const refreshAllBtn = document.getElementById("refresh-all");
 const themeToggleBtn = document.getElementById("theme-toggle");
@@ -524,7 +526,8 @@ themeToggleBtn.addEventListener("click", () => {
   localStorage.setItem("theme", next);
 });
 
-apiBaseInput.value = localStorage.getItem(API_BASE_KEY) || apiBaseInput.value;
+apiBaseInput.value =
+  localStorage.getItem(API_BASE_KEY) || DEFAULT_API_BASE;
 apiBaseInput.addEventListener("change", () => {
   localStorage.setItem(API_BASE_KEY, apiBaseInput.value);
 });
