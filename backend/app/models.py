@@ -147,6 +147,7 @@ class Bet(Base):
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=lambda: str(uuid4()))
     user_id: Mapped[str] = mapped_column(String(36), ForeignKey("users.id"), nullable=False)
     external_key: Mapped[str] = mapped_column(String(200), nullable=False)
+    event_id: Mapped[Optional[str]] = mapped_column(String(50), nullable=True)
     source: Mapped[str] = mapped_column(String(30), nullable=False)
     event: Mapped[str] = mapped_column(String(200), nullable=False)
     market: Mapped[str] = mapped_column(String(200), nullable=False)
@@ -158,6 +159,9 @@ class Bet(Base):
         Numeric(12, 4), nullable=True
     )
     result: Mapped[str] = mapped_column(String(10), nullable=False, server_default="pending")
+    event_start_time: Mapped[Optional[datetime]] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
     placed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now(), nullable=False

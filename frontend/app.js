@@ -292,6 +292,7 @@ const renderValuebets = (items) => {
         const payout = Number.isFinite(oddsDecimal) && oddsDecimal > 1 ? stake * oddsDecimal : stake;
         const payload = {
           external_key: key,
+          event_id: valuebet.eventId ? String(valuebet.eventId) : null,
           source: "valuebet",
           event: eventName,
           market: marketLabel,
@@ -300,6 +301,7 @@ const renderValuebets = (items) => {
           payout,
           profit: payout - stake,
           odds_decimal: Number.isFinite(oddsDecimal) ? oddsDecimal : null,
+          event_start_time: event.date || null,
           placed_at: new Date().toISOString(),
         };
         const bet = await fetchJson("/bets/me", {
@@ -421,6 +423,7 @@ const renderOddsApi = (items) => {
         const profit = (totalStake * profitMargin) / 100;
         const payload = {
           external_key: key,
+          event_id: item.eventId ? String(item.eventId) : null,
           source: "odds_api",
           event: eventName,
           market: marketLabel,
@@ -428,6 +431,7 @@ const renderOddsApi = (items) => {
           stake: totalStake,
           payout: totalStake + profit,
           profit,
+          event_start_time: startTime || null,
           placed_at: new Date().toISOString(),
         };
         const bet = await fetchJson("/bets/me", {

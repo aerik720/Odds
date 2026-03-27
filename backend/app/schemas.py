@@ -93,6 +93,7 @@ class AdminUserOut(BaseModel):
 
 class BetBase(BaseModel):
     external_key: str = Field(min_length=1, max_length=200)
+    event_id: str | None = None
     source: str = Field(min_length=1, max_length=30)
     event: str = Field(min_length=1, max_length=200)
     market: str = Field(min_length=1, max_length=200)
@@ -100,6 +101,7 @@ class BetBase(BaseModel):
     stake: Decimal = Field(gt=0)
     payout: Decimal = Field(ge=0)
     profit: Decimal
+    event_start_time: datetime | None = None
     placed_at: datetime | None = None
 
 

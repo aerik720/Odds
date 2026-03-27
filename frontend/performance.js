@@ -426,6 +426,15 @@ const loadBets = async () => {
   return data || [];
 };
 
+const refreshResults = async () => {
+  try {
+    await fetchJson("/bets/me/refresh-results?min_hours=2");
+  } catch (err) {
+    // Non-blocking: keep page usable even if refresh fails.
+    console.warn("Result refresh failed", err);
+  }
+};
+
 const renderAll = async () => {
   const bets = await loadBets();
   renderStats(bets);
@@ -492,10 +501,16 @@ const requireAuth = async () => {
 requireAuth().then((ok) => {
   if (!ok) return;
   startBankrollInput.value = loadStartBankroll();
-  renderAll().catch((err) => {
-    chartSummary.textContent = err.message;
-    betsSummary.textContent = err.message;
-  });
+  refreshResults()
+    .catch((err) => {
+      console.warn("Result refresh failed", err);
+    })
+    .finally(() => {
+      renderAll().catch((err) => {
+        chartSummary.textContent = err.message;
+        betsSummary.textContent = err.message;
+      });
+    });
 });
 
 if (activeSort) {
