@@ -1,5 +1,7 @@
+import os
 import re
 import subprocess
+import sys
 import threading
 from datetime import datetime, timezone
 from pathlib import Path
@@ -27,9 +29,23 @@ from ..schemas import (
 router = APIRouter(prefix="/admin", tags=["admin"], dependencies=[Depends(require_admin)])
 
 TASKS = {
-    "run_odds_api": "backend/scripts/run_odds_api.ps1",
-    "run_odds_api_arbitrage": "backend/scripts/run_odds_api_arbitrage.ps1",
-    "run_valuebets_smarkets": "backend/scripts/run_valuebets_smarkets.ps1",
+    "run_odds_api": {
+        "ps1": "backend/scripts/run_odds_api.ps1",
+        "py": ["-m", "scripts.fetch_odds_api", "--max-events", "50"],
+    },
+    "run_odds_api_arbitrage": {
+        "ps1": "backend/scripts/run_odds_api_arbitrage.ps1",
+        "py": ["-m", "scripts.fetch_odds_api_arbitrage"],
+    },
+    "run_valuebets_smarkets": {
+        "ps1": "backend/scripts/run_valuebets_smarkets.ps1",
+        "py": [
+            "-m",
+            "scripts.fetch_valuebets_smarkets",
+            "--auto-reset-bookmakers",
+            "--valuebets-only",
+        ],
+    },
 }
 
 ROOT_DIR = Path(__file__).resolve().parents[3]
@@ -490,18 +506,29 @@ def run_task(name: str):
     status = TASK_STATUS.get(name)
     if status and status.get("status") == "running":
         raise HTTPException(status_code=409, detail="task already running")
-    script_path = ROOT_DIR / TASKS[name]
-    if not script_path.exists():
-        raise HTTPException(status_code=404, detail="script not found")
-    process = subprocess.Popen(
-        [
+    task = TASKS[name]
+    env = os.environ.copy()
+    env.update(_read_env())
+    backend_dir = ROOT_DIR / "backend"
+    if os.name == "nt":
+        script_path = ROOT_DIR / task["ps1"]
+        if not script_path.exists():
+            raise HTTPException(status_code=404, detail="script not found")
+        command = [
             "powershell",
             "-ExecutionPolicy",
             "Bypass",
             "-File",
             str(script_path),
-        ],
-        cwd=str(ROOT_DIR),
+        ]
+        cwd = str(ROOT_DIR)
+    else:
+        command = [sys.executable, *task["py"]]
+        cwd = str(backend_dir)
+    process = subprocess.Popen(
+        command,
+        cwd=cwd,
+        env=env,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         text=True,
