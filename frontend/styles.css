@@ -7,6 +7,10 @@
   --accent: #ff6a3d;
   --accent-dark: #d74c23;
   --teal: #16a6a3;
+  --border: rgba(18, 18, 18, 0.12);
+  --border-strong: rgba(18, 18, 18, 0.28);
+  --surface: rgba(18, 18, 18, 0.04);
+  --surface-strong: rgba(18, 18, 18, 0.08);
   --shadow: 0 20px 60px rgba(19, 14, 10, 0.16);
   --radius: 18px;
 }
@@ -20,6 +24,10 @@
     --accent: #ff8a66;
     --accent-dark: #ff6a3d;
     --teal: #29c1bd;
+    --border: rgba(255, 255, 255, 0.18);
+    --border-strong: rgba(255, 255, 255, 0.32);
+    --surface: rgba(255, 255, 255, 0.06);
+    --surface-strong: rgba(255, 255, 255, 0.12);
     --shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
   }
 }
@@ -32,6 +40,10 @@
   --accent: #ff6a3d;
   --accent-dark: #d74c23;
   --teal: #16a6a3;
+  --border: rgba(18, 18, 18, 0.12);
+  --border-strong: rgba(18, 18, 18, 0.28);
+  --surface: rgba(18, 18, 18, 0.04);
+  --surface-strong: rgba(18, 18, 18, 0.08);
   --shadow: 0 20px 60px rgba(19, 14, 10, 0.16);
 }
 
@@ -43,6 +55,10 @@
   --accent: #ff8a66;
   --accent-dark: #ff6a3d;
   --teal: #29c1bd;
+  --border: rgba(255, 255, 255, 0.18);
+  --border-strong: rgba(255, 255, 255, 0.32);
+  --surface: rgba(255, 255, 255, 0.06);
+  --surface-strong: rgba(255, 255, 255, 0.12);
   --shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
 }
 
@@ -193,19 +209,23 @@ h1 {
 .field input[type="text"],
 .field input[type="number"],
 .field input[type="password"] {
-  border: 1px solid rgba(18, 18, 18, 0.12);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 10px 12px;
   font-size: 15px;
   outline: none;
+  background: var(--card);
+  color: var(--ink);
 }
 
 .field-input {
-  border: 1px solid rgba(18, 18, 18, 0.12);
+  border: 1px solid var(--border);
   border-radius: 10px;
   padding: 8px 10px;
   font-size: 14px;
   outline: none;
+  background: var(--card);
+  color: var(--ink);
 }
 
 .field-input--compact {
@@ -217,7 +237,7 @@ h1 {
 }
 
 .field-select {
-  border: 1px solid rgba(18, 18, 18, 0.12);
+  border: 1px solid var(--border);
   border-radius: 10px;
   padding: 8px 10px;
   font-size: 14px;
@@ -227,12 +247,13 @@ h1 {
 }
 
 .field select {
-  border: 1px solid rgba(18, 18, 18, 0.12);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 8px 12px;
   font-size: 14px;
   background: var(--card);
   outline: none;
+  color: var(--ink);
 }
 
 .field--inline {
@@ -297,13 +318,7 @@ h1 {
 .button--ghost {
   background: transparent;
   color: var(--accent-dark);
-  border: 1px solid rgba(215, 76, 35, 0.4);
-}
-
-@media (prefers-color-scheme: dark) {
-  .button--ghost {
-    border-color: rgba(255, 138, 102, 0.5);
-  }
+  border: 1px solid var(--border-strong);
 }
 
 .grid {
@@ -346,7 +361,7 @@ h1 {
 }
 
 .row {
-  border: 1px solid rgba(18, 18, 18, 0.1);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 12px 14px;
   display: grid;
@@ -356,16 +371,8 @@ h1 {
   position: relative;
 }
 
-:root[data-theme="dark"] .row {
-  border-color: rgba(255, 255, 255, 0.18);
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .row {
-    border-color: rgba(255, 255, 255, 0.18);
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
-  }
+.row {
+  box-shadow: 0 0 0 1px var(--surface) inset;
 }
 
 .row strong {
@@ -386,11 +393,12 @@ h1 {
 
 .user-role {
   width: 100%;
-  border: 1px solid rgba(18, 18, 18, 0.12);
+  border: 1px solid var(--border);
   border-radius: 10px;
   padding: 6px 10px;
   font-size: 13px;
   background: var(--card);
+  color: var(--ink);
 }
 
 .user-role:disabled {
@@ -435,7 +443,7 @@ h1 {
   position: absolute;
   top: 10px;
   right: 82px;
-  border: 1px solid rgba(18, 18, 18, 0.2);
+  border: 1px solid var(--border);
   background: transparent;
   color: var(--muted);
   border-radius: 10px;
@@ -446,14 +454,14 @@ h1 {
 
 .trash-btn:hover {
   color: var(--ink);
-  border-color: rgba(18, 18, 18, 0.35);
+  border-color: var(--border-strong);
 }
 
 .restore-btn {
   position: absolute;
   top: 10px;
   right: 82px;
-  border: 1px solid rgba(18, 18, 18, 0.2);
+  border: 1px solid var(--border);
   background: transparent;
   color: var(--muted);
   border-radius: 10px;
@@ -464,7 +472,7 @@ h1 {
 
 .restore-btn:hover {
   color: var(--ink);
-  border-color: rgba(18, 18, 18, 0.35);
+  border-color: var(--border-strong);
 }
 
 .empty {
@@ -474,7 +482,7 @@ h1 {
 }
 
 .log {
-  background: rgba(18, 18, 18, 0.06);
+  background: var(--surface);
   border-radius: 12px;
   padding: 12px 14px;
   font-size: 12px;
@@ -487,7 +495,7 @@ h1 {
   color: var(--muted);
   border-radius: 12px;
   padding: 10px 12px;
-  background: rgba(18, 18, 18, 0.05);
+  background: var(--surface);
   min-height: 20px;
 }
 
@@ -511,7 +519,7 @@ h1 {
 .progress__track {
   width: 100%;
   height: 10px;
-  background: rgba(18, 18, 18, 0.08);
+  background: var(--surface-strong);
   border-radius: 999px;
   overflow: hidden;
 }
@@ -527,7 +535,7 @@ h1 {
   margin-top: 16px;
   padding: 16px;
   border-radius: 16px;
-  background: rgba(18, 18, 18, 0.04);
+  background: var(--surface);
 }
 
 .chart svg {
@@ -536,7 +544,7 @@ h1 {
 }
 
 .chart__grid {
-  stroke: rgba(18, 18, 18, 0.08);
+  stroke: var(--surface-strong);
   stroke-width: 1;
 }
 
@@ -555,16 +563,8 @@ h1 {
   fill: var(--muted);
 }
 
-@media (prefers-color-scheme: dark) {
-  .progress__track {
-    background: rgba(255, 255, 255, 0.08);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .log {
-    background: rgba(255, 255, 255, 0.06);
-  }
+::placeholder {
+  color: var(--muted);
 }
 
 @keyframes fadeUp {
