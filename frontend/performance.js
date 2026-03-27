@@ -428,7 +428,9 @@ const loadBets = async () => {
 
 const refreshResults = async () => {
   try {
-    await fetchJson("/bets/me/refresh-results?min_hours=2");
+    await fetchJson("/bets/me/refresh-results?min_hours=2", {
+      method: "POST",
+    });
   } catch (err) {
     // Non-blocking: keep page usable even if refresh fails.
     console.warn("Result refresh failed", err);
